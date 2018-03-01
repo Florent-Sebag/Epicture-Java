@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/action_connect"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Connect to Imgur"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_myimg"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="My Picture"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_upload"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Upload Picture"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_getFav"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Get Favorites"
+        app:showAsAction="never" />
+
+</menu>
